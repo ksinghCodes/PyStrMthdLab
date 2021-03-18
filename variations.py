@@ -12,7 +12,7 @@ print("Title Case: ", message.title())
 words = message.split()
 print("Words: ", words)
 
-#sort list ( words ) and choose
+#sort list ( words ) and choose # sorts on Ascii/unicode number (ord("string"))
 sorted_words= sorted(words)
 print("Alphabetic First Word: ", sorted_words[0])
 print("Alphabetic Last Word: ", sorted_words[-1])
